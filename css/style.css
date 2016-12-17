@@ -1,0 +1,50 @@
+body {
+	background-color: #F0DB4F;
+	font-family: 'Quattrocento Sans', 'Arial', sans-serif;
+}
+
+header, footer {
+	font-family: 'Sriracha', cursive;
+}
+
+.container {
+	background-color: #323330;
+	margin: 70px auto;
+}
+
+.subcontainer {
+	margin: 100px auto;
+}
+
+form {
+	background-color: #F5F4F0;
+	width: 80%;
+    padding: 20px 8%;
+    margin: 0 auto 100px;
+}
+
+.quiz-questions {
+	display: block;
+	padding-bottom: 20px;
+}
+
+label {
+	display: block;
+	width: 300px;
+	border-radius: 4px;
+}
+
+input[type="radio"], label {
+	margin-left: 10px;
+}
+
+input[type="radio"]:hover, label:hover {
+	color: #666;
+	cursor: pointer;
+	background-color: #F0DB4F;
+}
+
+/*input[type="radio"]:checked, label:checked {
+	font-weight: bold;
+	background: yellow;
+}*/
