@@ -48,3 +48,8 @@ input[type="radio"]:hover, label:hover {
 	font-weight: bold;
 	background: yellow;
 }*/
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+}
