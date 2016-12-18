@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	function submitAnswers() {
-		var total = 5;
+		var total = 10;
 		var score = 0;
 
 		//captures each of the questions answers in a variable
@@ -16,6 +16,16 @@ $(document).ready(function() {
 				console.log('for loop and if validation statment ran');
 				alert('You missed a question');
 				return false;
+			}
+		}
+
+		// Are the answers to test
+		var answers = ['b', 'a', 'c', 'b', 'a', 'd', 'a', 'a', 'b', 'a'];
+		for(var i = 1; i <= total; i++){
+			if(eval('q' + 1) === answers[i - 1] ){
+				console.log('Evaluating answers');
+				score ++;
+				console.log('Your score is ' + score);
 			}
 		}
 	}
