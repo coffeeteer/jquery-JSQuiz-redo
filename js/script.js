@@ -1,5 +1,6 @@
-$(document).ready(function() {
-	//console.log('document.ready fires');
+
+// $(document).ready(function() {
+	console.log('document.ready fires');
 	console.log('before submitAnswers');
 	function submitAnswers() {
 		console.log('entering the submitAnswers function')
@@ -40,7 +41,7 @@ $(document).ready(function() {
 		return false;
 	}
 
-	$('#submitBtn').on('submit', function() {
+	$('#submitBtn').on('click', function() {
 		console.log('Submit fires');
 		submitAnswers();					
 	});
@@ -54,4 +55,4 @@ $(document).ready(function() {
 	// 	return submitAnswers();
 	// 	console.log('submit worked');
 	// });
-});
+// });
