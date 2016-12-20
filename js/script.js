@@ -2,6 +2,8 @@
 // $(document).ready(function() {
 	console.log('document.ready fires');
 	console.log('before submitAnswers');
+	// var submitBtn = $('submitBtn').val(); 
+
 	function submitAnswers() {
 		console.log('entering the submitAnswers function')
 		var total = 10;
@@ -38,7 +40,7 @@
 				console.log('Your score is ' + score);
 			}
 		}
-		return false;
+		//return false;
 	}
 
 	$('#submitBtn').on('click', function() {
