@@ -1,6 +1,11 @@
 
-// $(document).ready(function() {
-	console.log('document.ready fires');
+//$(document).ready(function() {console.log('document.ready fires');});
+	// onclick handler that submits form from 'submit button'
+	$('.btn').on('submit', function() {
+		console.log('Submit fires');
+		submitAnswers();					
+	});
+	
 	console.log('before submitAnswers');
 	// var submitBtn = $('submitBtn').val(); 
 
@@ -43,10 +48,6 @@
 		//return false;
 	}
 
-	$('#submitBtn').on('click', function() {
-		console.log('Submit fires');
-		submitAnswers();					
-	});
 	
 	//for dynamically changing the checked fi
 	// if ( $("#cb").attr("checked") === true ) {...}
@@ -57,4 +58,6 @@
 	// 	return submitAnswers();
 	// 	console.log('submit worked');
 	// });
-// });
+
+
+
