@@ -1,0 +1,27 @@
+{
+  "name": "jquery-jsquiz-redo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffeeteer/jquery-JSQuiz-redo.git"
+  },
+  "author": "coffeeteer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coffeeteer/jquery-JSQuiz-redo/issues"
+  },
+  "homepage": "https://github.com/coffeeteer/jquery-JSQuiz-redo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "path": "^0.12.7"
+  }
+}
