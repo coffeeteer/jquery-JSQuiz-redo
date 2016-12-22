@@ -1,7 +1,8 @@
 
 //$(document).ready(function() {console.log('document.ready fires');});
 	// onclick handler that submits form from 'submit button'
-	$('.btn').on('submit', function() {
+	$('#submission').on('submit', function(e) {
+		e.preventDefault();
 		console.log('Submit fires');
 		submitAnswers();					
 	});
@@ -15,16 +16,16 @@
 		var score = 0;
 
 		//captures each of the questions answers in a variable
-		var q1 = document.form['javaScriptQuiz']['q1'].value;
-		var q2 = document.form['javaScriptQuiz']['q2'].value;
-		var q3 = document.form['javaScriptQuiz']['q3'].value;
-		var q4 = document.form['javaScriptQuiz']['q4'].value;
-		var q5 = document.form['javaScriptQuiz']['q5'].value;
-		var q6 = document.form['javaScriptQuiz']['q6'].value;
-		var q7 = document.form['javaScriptQuiz']['q7'].value;
-		var q8 = document.form['javaScriptQuiz']['q8'].value;
-		var q9 = document.form['javaScriptQuiz']['q9'].value;
-		var q10 = document.form['javaScriptQuiz']['q10'].value;
+		var q1 = document.forms['javaScriptQuiz']['q1'].value;
+		var q2 = document.forms['javaScriptQuiz']['q2'].value;
+		var q3 = document.forms['javaScriptQuiz']['q3'].value;
+		var q4 = document.forms['javaScriptQuiz']['q4'].value;
+		var q5 = document.forms['javaScriptQuiz']['q5'].value;
+		var q6 = document.forms['javaScriptQuiz']['q6'].value;
+		var q7 = document.forms['javaScriptQuiz']['q7'].value;
+		var q8 = document.forms['javaScriptQuiz']['q8'].value;
+		var q9 = document.forms['javaScriptQuiz']['q9'].value;
+		var q10 = document.forms['javaScriptQuiz']['q10'].value;
 		console.log('runs questions');
 
 		//Validation
